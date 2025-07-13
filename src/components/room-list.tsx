@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { dayjs } from '@/lib/day';
-import { useRooms } from './http/use-rooms';
+import { useRooms } from '../http/use-rooms';
 import { Badge } from './ui/badge';
 
 export function RoomList() {
